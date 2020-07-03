@@ -2,7 +2,8 @@
 # Language: Python
 # Input: CSV (file to filter)
 # Output: CSV (filtered data)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.1, Python 3.6
+# Dependency: numpy==1.16.0
 
 A PluMA plugin that accepts as input a CSV file of data, where
 rows contain samples and columns represent variable values within
