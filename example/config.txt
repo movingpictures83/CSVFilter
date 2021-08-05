@@ -1,2 +1,3 @@
 Prefix plugins/CSVFilter/example/
-Plugin CSVFilter inputfile abund.csv outputfile abund.filtered.csv
+Plugin CSVFilter inputfile parameters.txt outputfile abund.filtered.csv
+#Plugin CSVFilter inputfile abund.csv outputfile abund.filtered.csv
