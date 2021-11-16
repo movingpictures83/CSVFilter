@@ -42,7 +42,7 @@ class CSVFilterPlugin:
         #zeroflag = True
         nonzerocount = 0
         for i in range(self.m):
-           if (self.ADJ[i][j] != 0):
+           if (self.ADJ[i][j] > float(self.parameters["minval"])):
               #print(self.ADJ[i][j])
               #zeroflag = False
               nonzerocount += 1

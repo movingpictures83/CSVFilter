@@ -1,2 +1,3 @@
 csvfile	abund.csv
 threshold	0.5
+minval	0
