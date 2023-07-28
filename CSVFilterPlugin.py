@@ -49,7 +49,7 @@ class CSVFilterPlugin:
               #break
         #if (zeroflag):
         if ((float(nonzerocount)/float(self.m)) < float(self.parameters["threshold"])):
-           print("DELETING "+self.bacteria[j]+" "+str((float(nonzerocount)/float(self.m))))
+           #print("DELETING "+self.bacteria[j]+" "+str((float(nonzerocount)/float(self.m))))
            self.firstline = self.firstline.replace(self.bacteria[j], "")
            if (self.firstline.find(",,") != -1):
               self.firstline = self.firstline.replace(",,", ",")
